@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
     'number.decimals_separator' => ',',
     'number.thousands_separator' => ' ',
     'None' => 'Aucun',
@@ -769,7 +769,6 @@ return array(
     'Swimlane changed for task #%d' => 'Changement de swimlane pour la tâche n°%d',
     'Assignee changed on task #%d' => 'Changement de l\'assigné pour la tâche n°%d',
     '%d overdue tasks' => '%d tâches en retard',
-    'Task #%d is overdue' => 'La tâche n°%d est en retard',
     'No notification.' => 'Aucune notification.',
     'Mark all as read' => 'Tout marquer comme lu',
     'Mark as read' => 'Marquer comme lu',
@@ -1465,4 +1464,8 @@ return array(
     'Remove internal link(s)' => 'Enlever le(s) lien(s) interne(s)',
     'Import tasks from another project' => 'Importer les tâches d\'un autre projet',
     'Select the project to copy tasks from' => 'Sélectionner le projet dont vous souhaitez copier les tâches',
-);
+    'The total maximum allowed attachments size is %sB.' => 'La taille totale maximale autorisée pour les pièces jointes est de %sB.',
+    'Add attachments' => 'Ajouter des pièces jointes',
+    'Task #%d "%s" is overdue' => 'La tâche n°%d « %s » est en retard',
+    'Enable notifications by default for all new users' => 'Activer les notifications par défaut pour tous les nouveaux utilisateurs',
+];
